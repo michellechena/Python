@@ -11,20 +11,20 @@
 '''
 
 
-num = 17 / 3
-num1 = 17 // 3
-num2 = 17 % 3
-num3 = 5 * 3 + 2
-num4 = -5 * 3 - 4
+num = 17 / 3   # 5.666666666666667
+num1 = 17 // 3  # 5
+num2 = 17 % 3   # 2
+num3 = 5 * 3 + 2  # 17
+num4 = -5 * 3 - 4 # -19
 
 width = 10
 height = 20
-area = width * height
-powernum = 3 ** 2
+area = width * height  #200
+powernum = 3 ** 2  # 9
 
 
 # full support for floating, convert integer to float
-floatnum = 4 * 3.75 - 1   #14.0
+floatnum = 4 * 3.75 - 1   # 14.0
 
 # In interactive mode, the last printed expression is assigned to the variable _, 
 # it seems that visual studio does not support interactive mode. It gives me a build error
