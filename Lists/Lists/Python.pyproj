@@ -3,13 +3,14 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>8dfd7049-8ce5-4c48-a85c-71667bff140c</ProjectGuid>
-    <ProjectHome>.</ProjectHome>
-    <StartupFile>Sums.py</StartupFile>
+    <ProjectHome>
+    </ProjectHome>
+    <StartupFile>9H\sandbox.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>Lists</Name>
+    <Name>Python</Name>
     <RootNamespace>Lists</RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
@@ -21,10 +22,55 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Lists.py" />
-    <Compile Include="Sums.py">
+    <Compile Include="61A\1_5.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="61A\1_6.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="9H\9H_1.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="9H\lamda.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="9H\list.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="9H\sandbox.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Ace\1.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="class.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="dict.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="hw0_1.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Lists.py" />
+    <Compile Include="Reverse.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Stone.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Strings.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tuple.py">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="61A\" />
+    <Folder Include="9H\" />
+    <Folder Include="Ace\" />
+    <Folder Include="Ace\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in

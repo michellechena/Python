@@ -3,6 +3,10 @@
 
 # strings can be enclosed in single or double quotes
 
+
+
+b = eval('test')
+
 print('"Yes," he said.')
 
 print ('doesn\'t')     # use \' to escape the single quote    doesn't
@@ -17,6 +21,8 @@ print('C:\some\name')    # C:\some   \n means new line
 print(r'C:\some\name')   # use raw strings by adding an r before the first quote C:\some\name
 
 # string literals can span multipel lines, by using triple quotes """...""", or '''...'''
+
+
 
 print("""\
 Usage: thingy [Options]
