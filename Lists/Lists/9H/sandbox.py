@@ -6,16 +6,34 @@ crit = Critter()
 crit.talk()
 
 class Student():
-    def learn(self):  #instance method
+    num_of_student = 0   #class variable
+
+    def __init__(self, first, last):
+        self.first = first    # first: instance variable
+        self.last = last      # last: instance variable
+
+    def learn(self):  #instance method => self
         print("learn myself instance")
 
     @classmethod
-    def learnc(cls):  #class method
+    def learnc(cls):  #class method => >cls
         print("learn myself class")
 
     @staticmethod
     def staticmethod():
         return 'static method called'
+
+class HonorStudent(Student):  #honor student is a student, it inherits from student
+    def __init__(self, first, last, awards):
+        super.__init__(first, last)
+
+        if awards is None:
+             self.awards = [] #empty list
+        else:
+            self.awards = awards
+
+honorStudent = HonorStudent('First','LastName', ['A', 'A'])   
+
 student1 = Student()
 student1.learn()
 

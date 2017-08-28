@@ -5,7 +5,7 @@
     <ProjectGuid>8dfd7049-8ce5-4c48-a85c-71667bff140c</ProjectGuid>
     <ProjectHome>
     </ProjectHome>
-    <StartupFile>9H\sandbox.py</StartupFile>
+    <StartupFile>Ace\2.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -41,6 +41,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Ace\1.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Ace\2.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="class.py">
