@@ -5,7 +5,7 @@
     <ProjectGuid>8dfd7049-8ce5-4c48-a85c-71667bff140c</ProjectGuid>
     <ProjectHome>
     </ProjectHome>
-    <StartupFile>Ace\2.py</StartupFile>
+    <StartupFile>9H\sandbox.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -25,10 +25,26 @@
     <Compile Include="61A\1_5.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="61A\1_6.py">
+    <Compile Include="61A\1_6.py" />
+    <Compile Include="61A\hw1.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="61A\lab0.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="61A\lab01.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="61A\lab01_extra.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="61A\lab1_guessing_game.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="9H\9H_1.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="9H\boolean.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="9H\lamda.py">
@@ -46,6 +62,9 @@
     <Compile Include="Ace\2.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Ace\slicing.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="class.py">
       <SubType>Code</SubType>
     </Compile>
@@ -59,7 +78,7 @@
     <Compile Include="Reverse.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Stone.py">
+    <Compile Include="hailstone.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Strings.py">

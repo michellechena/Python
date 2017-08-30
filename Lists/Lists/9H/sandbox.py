@@ -1,3 +1,93 @@
+
+#http://www-inst.eecs.berkeley.edu/~selfpace/class/cs9h/
+ 
+
+print(not '' or not 0 and False )
+
+print(13 and False)
+
+print(1 or 2   )   #1   x or y: x is false, y, x is true x
+print(1 or 4  ) #1
+print (1 and 2) #2             # x and y: x is false, x, x is true y
+print ('' and 3 )   #''
+
+print(not True and 2) 
+
+def bake(cake, make):
+     m=1
+     if cake == 0:
+         cake = cake + 1
+         print(cake)
+     if cake == 1:
+        m=2
+     else:
+        return cake
+     return make
+
+bake(1, "mashed potatoes")
+
+bake(0, 29)
+
+
+
+def compose22(f, x, n):
+    while n!= 0:
+        x = f(x)
+        n -= 1
+    return x
+
+def square(x):
+  return pow(x, 2)
+
+print ('compose22(square, 6, 2)')
+print(compose22(square, 6, 2))  # big number 18446744073709551616
+
+def opposite(b):
+    return not b
+compose22(opposite, 4, True)
+compose22(opposite, 5, True)
+compose22(opposite, 631, 1)
+compose22(opposite, 3, 0)
+
+
+
+def double_eights1(n):
+    chars = str(n)
+    if '88' not in chars:
+        return False
+    else:
+        return True
+        
+
+
+double_eights1(8)  #false
+
+double_eights1(88)  #true
+
+double_eights1(880088)  #true
+double_eights1(12345)  #false
+
+double_eights1(80808080) #false
+
+print(4/2)
+print(8/2)
+print(3//2)
+print(3/2)
+
+
+
+
+
+dict = {'Name': 'Zara', 'Age': 7, 'Class': 'First'}
+print(dict['Name'] )
+
+d = {'x':1, 'y':2, 'z':3}
+d1 = {'x':'a', 'y':'b', 'z':'c'}
+
+print(dict.items())
+
+
+print(0 or 4 and 2 or 7)
 class Critter(object):
     def talk(self):
         print("hi")
@@ -11,6 +101,7 @@ class Student():
     def __init__(self, first, last):
         self.first = first    # first: instance variable
         self.last = last      # last: instance variable
+        num_of_student +=1
 
     def learn(self):  #instance method => self
         print("learn myself instance")
@@ -31,6 +122,9 @@ class HonorStudent(Student):  #honor student is a student, it inherits from stud
              self.awards = [] #empty list
         else:
             self.awards = awards
+
+            {}
+            a = ()
 
 honorStudent = HonorStudent('First','LastName', ['A', 'A'])   
 
@@ -54,14 +148,15 @@ assert x == 15
 
 #AssertError
 
+'hello string'
+['hello', 'string']
 def mystery(x):
-    a = {}
+    a = {}                #{'h':["hello"], "s":["string"]}
     for y in x.split():
-        z = y[0]              #a['h'] =['hello','hi']
+        z = y[0]              #a['h'] =['hello']
         if z not in a:
             a[z] = []           
         a[z].append(y)        
- 
     return a
 
 x = 'hello world  hi  test'
@@ -73,9 +168,9 @@ The method split() returns a list of all the words in the string,
 using str as the separator (splits on all whitespace if left unspecified), optionally limiting the number of splits to num.
 '''
 x = 'hello world'
-y = x.split(' ')
+y = x.split(' ')  ['hello','world']
 ['hello', 'world']
-z = list(y[0])
+z = list(y[0])  [ 'h','e','l','l','o']
 print(z)
 
 print (x.split( ))
@@ -84,6 +179,8 @@ print (x.split(' ', 1 ))
 
 
 dict = {'Name': 'Zara', 'Age': 7, 'Class': 'First'}
+
+dict.items()
 
 print ("dict['Name']: ", dict['Name'])
 print ("dict['Age']: ", dict['Age'])
@@ -122,8 +219,9 @@ name[1] ='d'
 ##??
 
 letters = ['a', 'b', 'c', 'd', 'e', 'f', 'g']
-letters[2:5] = []
-
+letters[2:5] =[]
+letters="hello"
+letters[2:3]='c'
 
 
 def f(x,y):

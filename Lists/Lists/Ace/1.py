@@ -1,6 +1,37 @@
 #naming x-3-2
 #1223
+
+
+print(not '' or not 0 and False )
+
+
+def bake(cake, make):
+    if cake == 0:
+        cake = cake + 1
+        print(cake)
+    if cake == 1:
+        print(make)
+    else:
+        return cake
+    return make
+bake(0, 29)
+
+bake(1, "mashed potatoes")
+
+0 or True # True  # x is false, y, x true x  
+not '' or not 0 and False    
+
+true or true and false
+true or false
+
+# x is false, x, x true y
+13 and False
+
+
+#http://www-inst.eecs.berkeley.edu/~selfpace/cs9honline/
+
 '''
+
 a[start:end]	Start through end -1
 a[start : ]	Start through the rest of the array
 a[:end]	From the beginning to the end-1
@@ -12,17 +43,24 @@ a[ : -2]	Everything except last two items
 '''
 
 test = "spam"
-test*3
+b = test[-2:]
+test[:-2]
 
+test[-1]
 
-test+ str(3)  #spam3
+test.reverse()
+"maps
+#test + str(3)  #spam3
 
 
 x = -10
 print(x % 5)
 print(-26 %5)
 
-print(3%5)
+print(3%5)   # % remainder
+
+3//5   #integer divsion
+3/5 #float division
 
 if x > 10:
     print("x>10")
